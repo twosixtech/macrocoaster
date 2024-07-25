@@ -94,7 +94,7 @@ See the [interactive BoM](https://htmlpreview.github.io/?https://github.com/twos
     * `git clone https://github.com/twosixtech/macrocoaster && cd macrocoaster/firmware`
 3. Compile and flash for your microcontroller
     * You will need to press the Flash/boot/etc. button down when loading the code for the first time (QMK will prompt you ) 
-        * All later flashes can be done with the [magic-bootloader](https://github.com/qmk/qmk_firmware/blob/master/docs/feature_bootmagic.md) key :)
+        * All later flashes can be done with the [magic-bootloader](https://github.com/qmk/qmk_firmware/blob/master/docs/features/bootmagic.md) key :)
      * delete everything in the macrocoaster dir defined with `qmk new-keyboard` above
      * copy   `macrocoaster/firmware` into your qmk home dir and difined firmware for macrocoaster `qmk_firmware/keyboards/macrocoaster`. Like this `cp -r * ~/qmk_firmware/keyboards/macrocoaster` or similar.
     * Elite-C/Pro-micro
