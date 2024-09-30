@@ -19,8 +19,8 @@
 //#define NO_ACTION_TAPPING
 //#define NO_ACTION_ONESHOT
 
-#define ENCODERS_PAD_A { B4, D7 }
-#define ENCODERS_PAD_B { E6, C6 }
+#define ENCODER_A_PINS { B4, D7 }
+#define ENCODER_B_PINS { E6, C6 }
 #define ENCODER_RESOLUTION 4
 #define DIP_SWITCH_PINS { D4, B5 }
 
